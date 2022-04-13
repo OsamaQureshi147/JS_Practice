@@ -20,15 +20,15 @@
 //   getIndex(index);
 // }
 
-function outer() {
-  var a = 20;
-  function inner() {
-    var b = 30;
-    console.log(a, b);
-  }
+// function outer() {
+//   var a = 20;
+//   function inner() {
+//     var b = a;
+//     console.log(a, b);
+//   }
 
-  return inner;
-}
+//   return inner;
+// }
 
-const A = outer();
-A();
+// const A = outer();
+// A();
